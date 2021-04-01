@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.adp3Assignment;
 
 import org.junit.jupiter.api.BeforeEach;
 
@@ -9,4 +9,6 @@ class AreaTest {
     @BeforeEach
     void setUp() {
     }
+
+
 }
