@@ -7,6 +7,10 @@ import org.junit.jupiter.api.Timeout;
 
 import static org.junit.jupiter.api.Assertions.*;
 
+/**
+ * @author Legiste Ndabashinze - 217046207
+ */
+
 class PersonTest {
 
     private Person p1;
