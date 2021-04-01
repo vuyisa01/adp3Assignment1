@@ -1,4 +1,4 @@
-package za.ac.cput;
+package za.ac.cput.adp3assignment1;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Disabled;
@@ -83,8 +83,7 @@ class MathUtilisTest {
 
     @Disabled("Disabled until bug #45 has been resolved")
    @Test()
-    void testComputeRectangleVolume() throws InterruptedException {
-        Thread.sleep(3000);
+    void testComputeRectangleVolume() {
         System.out.println("Rectangle volume test passed");
         double height = 5;
         double length = 15;
