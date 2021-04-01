@@ -7,4 +7,18 @@ package za.ac.cput;
  */
 public class MathUtilis {
 
+    public double computeCylinderVolume(double radius, double height){
+        return Math.PI * radius*radius * height;
+    }
+
+    public double computeRectangleVolume(double length, double height, double width){
+        return length * height * width;
+    }
+
+    public double computeSphereVolume(double radius){
+        return (4.0/3.0) * Math.PI * (radius * radius * radius);
+    }
+
+
+
 }
