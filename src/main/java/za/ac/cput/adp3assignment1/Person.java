@@ -1,14 +1,24 @@
-package za.ac.cput;
+package za.ac.cput.adp3assignment1;
+
+/**
+ * @author Legiste Ndabashinze - 217046207
+ */
 
 public class Person {
 
-    public String personName;
-    public String personSurname;
-    public int personAge;
-    public String personGender;
+    private String personName;
+    private String personSurname;
+    private int personAge;
+    private String personGender;
 
     public Person(){
 
+    }
+    public Person(String pname, String pSurname, int pAge, String pGender){
+        this.personName = pname;
+        this.personSurname = pSurname;
+        this.personAge = pAge;
+        this.personGender = pGender;
     }
 
     public String getPersonName() {
